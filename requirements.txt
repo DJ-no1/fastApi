@@ -1,0 +1,39 @@
+# Updated requirements with security patches applied
+# Based on vulnerability scan results
+
+# Web framework - Updated to patch CVE-2024-24762
+fastapi>=0.109.1
+
+# ASGI server - Keep current version (no known vulnerabilities)
+uvicorn[standard]==0.24.0
+
+# HTTP client - Updated to patch CVE-2024-35195 and CVE-2024-47081
+requests>=2.32.4
+
+# HTML/XML parsing
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Data validation
+pydantic==2.5.0
+
+# WHOIS functionality
+python-whois==0.8.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Image processing - Updated to patch CVE-2023-50447, CVE-2024-28219, CVE-2025-48379
+pillow>=11.3.0
+
+# Web automation
+selenium==4.15.2
+
+# HTTP client for asyncio
+httpx==0.25.2
+
+# ASGI framework - Updated to patch CVE-2024-47874, CVE-2024-24762
+starlette>=0.40.0
+
+# Build tools - Updated to patch CVE-2025-47273, CVE-2024-6345  
+setuptools>=78.1.1
