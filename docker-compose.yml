@@ -4,8 +4,8 @@ services:
   fastapi-secure:
     build:
       context: .
-      dockerfile: Dockerfile.secure
-    container_name: fastapi-url-intel-secure
+      dockerfile: Dockerfile
+    container_name: fastapi-aws
     ports:
       - "8000:8000"
     environment:
